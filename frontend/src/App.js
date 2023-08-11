@@ -5,20 +5,25 @@ import Education from "./pages/Education";
 import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ProjectDisplay from "./pages/ProjectDisplay";
+import About from "./pages/About";
 
 function App() {
   return (
     <>
-      <Router>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/education" element={<Education />} />
-
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
-        <Footer />
-      </Router>
+      <div className="App">
+        <Router>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/education" element={<Education />} />
+            <Route path="/project/:id" element={<ProjectDisplay />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
+          <Footer />
+        </Router>
+      </div>
     </>
   );
 }

@@ -9,12 +9,11 @@
 .projects .projectTitle {
   text-align: center;
   color: #3e497a;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bolder;
 }
 
 .projectList {
-  width: 70vw;
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -26,14 +25,14 @@
 .projectItem {
   border-radius: 15px;
   width: 300px;
-  height: 300px;
+  height: 265px;
   margin: 40px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 .projectItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-  transition: 0.3s ease-in;
+  transition: 0.1s ease-in;
   cursor: pointer;
 }
 
@@ -69,6 +68,6 @@
   }
   .projectItem {
     width: 300px;
-    height: 300px;
+    height: 265px;
   }
 }

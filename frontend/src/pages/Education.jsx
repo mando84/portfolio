@@ -3,12 +3,14 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import SchoolIcon from "@material-ui/icons/School";
+import "../styles/Education.css";
 
 import "react-vertical-timeline-component/style.min.css";
 
 function Education() {
   return (
-    <div>
+    <div className="education">
+      <h1>Education</h1>
       <VerticalTimeline lineColor={"green"}>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -19,7 +21,7 @@ function Education() {
           <h3 className="vertical-timeline-element-title">
             McAllen Memorial High School
           </h3>
-          <p> High School Diploma</p>
+          <h4> High School Diploma</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
