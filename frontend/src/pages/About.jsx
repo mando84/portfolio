@@ -14,7 +14,7 @@ function About() {
       <p>
         I like to get out of my comfort zone and reap the benefits of doing so.
         Meeting new people and engaging in new endeavors isn't easy but the
-        upside to this is makes it essential to a good life.
+        upside to this makes it essential to living a good life.
       </p>
 
       <p>
