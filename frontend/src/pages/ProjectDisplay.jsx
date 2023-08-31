@@ -14,6 +14,9 @@ function ProjectDisplay() {
         <img src={project.image} alt="Project" />
       </a>
       <p>
+        <b>Description: </b> {project.description}
+      </p>
+      <p>
         <b>Skills: </b> {project.skills}
       </p>
       <a target="_blank" rel="noopener noreferrer" href={project.githubUrl}>
